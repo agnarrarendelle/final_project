@@ -1,0 +1,69 @@
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
+# Editor directories and files
+frontend/.vscode/
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+frontend/package-lock.json
+frontend/.env
+
+
+
+backend/target/
+backend/!.mvn/wrapper/maven-wrapper.jar
+backend/!**/src/main/**/target/
+backend/!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+backend/.idea/modules.xml
+backend/.idea/jarRepositories.xml
+backend/.idea/compiler.xml
+backend/.idea/libraries/
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+
+### Eclipse ###
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+backend/.sts4-cache
+
+### NetBeans ###
+backend/nbproject/private/
+backend/nbbuild/
+backend/dist/
+backend/nbdist/
+backend/.nb-gradle/
+backend/build/
+backend/!**/src/main/**/build/
+backend/!**/src/test/**/build/
+
+### VS Code ###
+backend/.vscode/
+
+### Mac OS ###
+backend/.DS_Store
+backend/.idea/
+

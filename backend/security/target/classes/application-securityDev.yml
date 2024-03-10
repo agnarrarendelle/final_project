@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: info
+    _org.springframework.web.servlet.HandlerMapping.Mappings: debug
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          TRACE: TRACE
+          descriptor:
+            sql: TRACE
+jwt:
+  secret_key: 123456
+  expire_day: 3
